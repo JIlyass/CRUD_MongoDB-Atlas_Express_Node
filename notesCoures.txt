@@ -1,0 +1,20 @@
+# api_crud_jsonFile
+This is a simple crud on json file with Express.Js ( Controller + router  )
+
+
+pour l installation de mongodb :
+    1 - npm install mongodb et npm install mongoose
+    2- db login and paw :  admin - admin 
+    3- connexion string :
+        mongodb+srv://admin:admin@cluster0.opirw02.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+    4- pour la creation des users : 
+        rubrique - data access
+    5- pour l ip adress :
+        dans securité - Network Access - new ip adress:
+        0.0.0.0/0
+    6-La connexion   
+        Database - connecter 
+        configurer sur nodeJs et copier connexion string (chaine de connexion) 
+            mongodb+srv://<admimongodb+srv://<username>:<password>@cluster0.opirw02.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0n>:<admin>@cluster0.opirw02.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+        ==> mongodb+srv://admin:encodeURIComponent('admin')@cluster0.opirw02.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+        ==>ona utiliser encodeURIComponent('') pour eviter le probleme des caractere spéciaux comme @ ...        
